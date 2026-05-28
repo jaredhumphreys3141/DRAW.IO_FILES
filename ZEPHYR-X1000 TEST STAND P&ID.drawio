@@ -1,11 +1,28 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="yVWc0W-ck9c9z-k3Kk2T">
-    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OFAJiqO-RdxWTzKYntk_-1" parent="1" style="shape=mxgraph.pid.vessels.tank;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" value="" vertex="1">
-          <mxGeometry height="95" width="40" x="70" y="80" as="geometry" />
+          <mxGeometry height="95" width="40" x="189.53" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgp1YG4fS6PU8-YT2vW6-1" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;fillColor=strokeColor;align=center;outlineConnect=0;shape=mxgraph.fluid_power.x10500;points=[[0.47,0,0],[0.47,1,0]]" value="" vertex="1">
+          <mxGeometry height="75.54" width="79.06" x="170" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgp1YG4fS6PU8-YT2vW6-2" edge="1" parent="1" source="OFAJiqO-RdxWTzKYntk_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.47;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="Tgp1YG4fS6PU8-YT2vW6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgp1YG4fS6PU8-YT2vW6-3" parent="1" style="shape=mxgraph.pid.vessels.tank;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" value="" vertex="1">
+          <mxGeometry height="95" width="40" x="50" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgp1YG4fS6PU8-YT2vW6-4" parent="1" style="verticalLabelPosition=bottom;align=center;html=1;verticalAlign=top;pointerEvents=1;dashed=0;shape=mxgraph.pid2valves.valve;valveType=angle;actuator=man" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="50" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgp1YG4fS6PU8-YT2vW6-5" edge="1" parent="1" source="Tgp1YG4fS6PU8-YT2vW6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="68" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
